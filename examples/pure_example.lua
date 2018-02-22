@@ -16,11 +16,8 @@ with Person!
 
 local moonscript = require("moon-bundle")
 
--- local parser = require("moonscript.parse")
--- local compiler = require("moonscript.compile")
-
-local parser = moonscript.parse
-local compiler = moonscript.compile
+local parser = require("moonscript.parse")
+local compiler = require("moonscript.compile")
 
 tree, err = parser.string(moonscript_code)
 assert(tree)
