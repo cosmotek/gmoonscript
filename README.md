@@ -4,7 +4,7 @@
 *Very experimental... use with caution.*
 This module provides methods for compiling Moonscript code to Lua from Go or Lua (Gopher-Lua) programs. Additionally this repository contains an amalgamation bundle of the Moonscript Lua library (modified to use only pure-Lua modules) that can be used in Lua or LuaJIT programs without any external dependencies (see examples/pure_example.lua for usage).
 
-See the [godoc](https://godoc.org/github.com/rucuriousyet/gmoonscript) for documentation...
+See the [godoc](https://godoc.org/github.com/cosmotek/gmoonscript) for documentation...
 
 ## Installation
 `go get -v -u github.com/rucuriousyet/gmoonscript`
