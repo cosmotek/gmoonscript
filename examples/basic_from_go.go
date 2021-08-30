@@ -1,7 +1,7 @@
 package main
 
 import lua "github.com/yuin/gopher-lua"
-import "github.com/rucuriousyet/gmoonscript"
+import "github.com/cosmotek/gmoonscript"
 
 func main() {
 	state := lua.NewState()
