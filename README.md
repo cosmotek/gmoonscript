@@ -16,7 +16,7 @@ Example usage from Gopher-Lua:
 package main
 
 import (
-	"github.com/rucuriousyet/gmoonscript"
+	"github.com/cosmotek/gmoonscript"
 	lua "github.com/yuin/gopher-lua"
 )
 
@@ -57,7 +57,7 @@ Example usage from Go
 package main
 
 import lua "github.com/yuin/gopher-lua"
-import "github.com/rucuriousyet/gmoonscript"
+import "github.com/cosmotek/gmoonscript"
 
 func main() {
 	state := lua.NewState()
