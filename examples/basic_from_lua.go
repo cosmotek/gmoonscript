@@ -1,7 +1,7 @@
 package main
 
 import (
-	"github.com/rucuriousyet/gmoonscript"
+	"github.com/cosmotek/gmoonscript"
 	lua "github.com/yuin/gopher-lua"
 )
 
